@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cvH-z3-gyO">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--About Me-->
+        <scene sceneID="aeF-KJ-3Vm">
+            <objects>
+                <viewController id="kCf-cf-nz6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sP4-tu-s6q">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name: Andrew Occupation: Student Hometown: Seatttle" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vmF-t4-6Zx">
+                                <rect key="frame" x="90" y="413" width="253" height="89.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="rGh-c8-XFO"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <constraints>
+                            <constraint firstItem="rGh-c8-XFO" firstAttribute="trailing" secondItem="vmF-t4-6Zx" secondAttribute="trailing" constant="50" id="GWD-jN-2kw"/>
+                            <constraint firstItem="vmF-t4-6Zx" firstAttribute="top" secondItem="rGh-c8-XFO" secondAttribute="top" constant="295" id="UG5-YM-fGF"/>
+                            <constraint firstItem="vmF-t4-6Zx" firstAttribute="leading" secondItem="rGh-c8-XFO" secondAttribute="leading" constant="90" id="m8U-3k-OLC"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="About Me" image="person.crop.circle.fill" catalog="system" selectedImage="person.crop.circle" id="8tR-Ku-BVe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nOi-qK-DL4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-228.24427480916029" y="732.3943661971831"/>
+        </scene>
+        <!--Hobbies-->
+        <scene sceneID="orQ-hQ-JXP">
+            <objects>
+                <viewController id="j27-oY-c2K" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="F1O-hW-aEI">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trekking Swimming" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RUs-Zh-YT2">
+                                <rect key="frame" x="90" y="416" width="113" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="aQl-jB-PAS"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="RUs-Zh-YT2" firstAttribute="leading" secondItem="aQl-jB-PAS" secondAttribute="leading" constant="90" id="3eu-X4-aaU"/>
+                            <constraint firstItem="aQl-jB-PAS" firstAttribute="trailing" secondItem="RUs-Zh-YT2" secondAttribute="trailing" constant="190" id="WXl-9p-9J0"/>
+                            <constraint firstItem="RUs-Zh-YT2" firstAttribute="top" secondItem="aQl-jB-PAS" secondAttribute="top" constant="298" id="eLH-f7-aOL"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Hobbies" image="point.forward.to.point.capsulepath" catalog="system" selectedImage="point.forward.to.point.capsulepath" id="6hC-em-c3Q"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rS5-qb-1dU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1315" y="732"/>
+        </scene>
+        <!--Family-->
+        <scene sceneID="3gZ-LH-1Ep">
+            <objects>
+                <viewController id="mgJ-q1-wrz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SHp-GZ-E07">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brother Name: William Occupation: Engineer Hometown: Seattle" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0y0-un-E6h">
+                                <rect key="frame" x="90" y="396" width="253" height="89.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Pg4-Gq-SYy"/>
+                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                        <constraints>
+                            <constraint firstItem="0y0-un-E6h" firstAttribute="leading" secondItem="Pg4-Gq-SYy" secondAttribute="leading" constant="90" id="CW0-4u-YUO"/>
+                            <constraint firstItem="Pg4-Gq-SYy" firstAttribute="trailing" secondItem="0y0-un-E6h" secondAttribute="trailing" constant="50" id="G6v-Z9-yoo"/>
+                            <constraint firstItem="0y0-un-E6h" firstAttribute="top" secondItem="Pg4-Gq-SYy" secondAttribute="top" constant="278" id="l2R-9J-Lpd"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Family" image="figure.and.child.holdinghands" catalog="system" selectedImage="figure.and.child.holdinghands" id="XBb-Uj-Lge"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sY1-QA-G6F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="543" y="732"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="zJR-sP-Kwx">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="cvH-z3-gyO" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bK8-Na-UUj">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <imageReference key="backgroundImage" image="person.crop.circle" catalog="system" symbolScale="medium"/>
+                        <tabBarAppearance key="standardAppearance"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="kCf-cf-nz6" kind="relationship" relationship="viewControllers" id="Acy-oX-fQt"/>
+                        <segue destination="mgJ-q1-wrz" kind="relationship" relationship="viewControllers" id="feS-E6-aei"/>
+                        <segue destination="j27-oY-c2K" kind="relationship" relationship="viewControllers" id="SHu-08-DX6"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qxh-Xw-Z4x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="542.74809160305347" y="-13.380281690140846"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="figure.and.child.holdinghands" catalog="system" width="124" height="128"/>
+        <image name="person.crop.circle" catalog="system" width="128" height="123"/>
+        <image name="person.crop.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="point.forward.to.point.capsulepath" catalog="system" width="128" height="81"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529410000001" green="0.69019607839999997" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
